@@ -3,22 +3,6 @@ module.config(function($stateProvider, $urlRouterProvider) {
   $urlRouterProvider.otherwise('/albums');
 
   $stateProvider
-    .state('resume', {
-      url: '/resume',
-      views: {
-        header: {
-          template: '<page-title title="title"></page-title>',
-          controller: function($scope) {
-            $scope.title = 'Resume';
-          }
-        },
-        body: {
-          template: '<resume></resume>'
-        }
-      }
-    });
-
-  $stateProvider
     .state('band', {
       url: '/band/:bandId',
       resolve: {
@@ -38,6 +22,22 @@ module.config(function($stateProvider, $urlRouterProvider) {
           controller: function($scope, band) {
             $scope.band = band;
           }
+        }
+      }
+    });
+
+  $stateProvider
+    .state('resume', {
+      url: '/resume',
+      views: {
+        header: {
+          template: '<page-title titles="titles"></page-title>',
+          controller: function($scope) {
+            $scope.titles = ['Brian Vaughn', 'Resume'];
+          }
+        },
+        body: {
+          template: '<resume></resume>'
         }
       }
     });
@@ -122,6 +122,15 @@ angular.module('briandavidvaughn').directive('pageTitle', function() {
       }
 
       document.body.title = $scope.titles.join(' > ');
+    }
+  };
+});
+
+angular.module('briandavidvaughn').directive('resume', function() {
+  return {
+    restrict: 'E',
+    templateUrl: 'source/components/resume/component.html',
+    link: function($scope) {
     }
   };
 });

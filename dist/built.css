@@ -189,7 +189,7 @@ html {
   line-height: 1.4; }
 
 body {
-  font-size: 1.6rem; }
+  font-size: 1.4rem; }
 
 body {
   overflow: hidden;
@@ -250,7 +250,7 @@ h4 {
   line-height: 2.4rem; }
 
 p {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 400;
   letter-spacing: 0.010em;
   line-height: 1.6em;
@@ -273,13 +273,13 @@ td.description *:last-child {
   margin-bottom: 0; }
 
 tr:nth-child(odd) td {
-  background-color: #E3ECF5; }
+  /*background-color: #E3ECF5;*/ }
 
 tr:nth-child(even) td {
-  background-color: #D1DEEC; }
+  /*background-color: #D1DEEC;*/ }
 
 th {
-  background-color: #4C9EF0;
+  /*background-color: #4C9EF0;*/
   color: white; }
 
 blockquote {
