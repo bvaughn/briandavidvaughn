@@ -1,0 +1,109 @@
+<html lang="en" ng-app="briandavidvaughn">
+<head>
+  <base href="/">
+
+  <link rel="stylesheet" href="/bower_components/angular-material/angular-material.min.css">
+  <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" href="/dist/built.css">
+</head>
+<body layout="row">
+  <script src="/bower_components/angular/angular.min.js"></script>
+  <script src="/bower_components/angular-animate/angular-animate.min.js"></script>
+  <script src="/bower_components/angular-aria/angular-aria.min.js"></script>
+  <script src="/bower_components/angular-material/angular-material.min.js"></script>
+  <script src="/bower_components/ui-router/release/angular-ui-router.js"></script>
+  <script src="/dist/built.js"></script>
+
+  <md-sidenav class="site-sidenav md-sidenav-left md-whiteframe-z2 md-closed md-locked-open"
+              md-component-id="left-sidenav"
+              md-is-open="leftSidenavIsOpen"
+              md-is-locked-open="$mdMedia('gt-sm')">
+    <md-toolbar class="md-theme-indigo">
+      <header class="nav-header">
+        <a class="docs-logo">
+          <img src="/images/nav-header-avatar.jpg">
+          <div class="docs-logotype">Brian Vaughn</div>
+        </a>
+      </header>
+    </md-toolbar>
+    <md-content flex md-scroll-y role="navigation" class="md-default-theme">
+    <ul class="docs-menu">
+      <li>
+        <h2 class="menu-heading md-subhead">
+          <i class="fa fa-music"></i>
+          Music
+        </h2>
+        <ul class="menu-toggle-list">
+          <li>
+            <a class="md-button md-default-theme"
+               ui-sref="band({bandId:'boy-named-bri'})">
+              Boy Named Bri
+            </a>
+          </li>
+          <li>
+            <a class="md-button md-default-theme"
+               ui-sref="band({bandId:'pilotless-drone'})">
+              Pilotless Drone
+            </a>
+          </li>
+          <li>
+            <a class="md-button md-default-theme"
+               ui-sref="band({bandId:'pinwurm'})">
+              Pinwurm
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li><hr/></li>
+      <li>
+        <div layout="row" layout-align="space-between center">
+          <h2 class="menu-heading md-subhead">
+            <i class="fa fa-github-alt"></i>
+            Software Projects
+          </h2>
+        </div>
+        <ul class="menu-toggle-list">
+          <li><a class="md-button md-default-theme">
+            Angular formFor
+          </a></li>
+          <li><a class="md-button md-default-theme">
+            Task Runner JS
+          </a></li>
+          <li><a class="md-button md-default-theme">
+            Jasmine Promise Matchers
+          </a></li>
+          <li><a class="md-button md-default-theme">
+            Palettable
+          </a></li>
+        </ul>
+      </li>
+      <li><hr/></li>
+      <li>
+        <div layout="row" layout-align="space-between center">
+          <a class="md-button md-default-theme resume-link">
+            <i class="fa fa-download"></i>
+            Resume
+          </a>
+        </div>
+      </li>
+    </ul>
+    </md-content>
+  </md-sidenav>
+  <div flex layout="column">
+    <md-toolbar class="md-whiteframe-glow-z1 site-content-toolbar md-default-theme">
+      <div class="md-toolbar-tools docs-toolbar-tools" layout="row" layout-align="space-between center">
+        <h3 ui-view="header"></h3>
+        <div class="nowrap">
+          <a class="fa fa-github-alt"></a>
+          <a class="fa fa-linkedin"></a>
+          <a class="fa fa-soundcloud"></a>
+        </div>
+      </div>
+    </md-toolbar>
+    <md-content md-scroll-y flex layout-padding class="md-default-theme">
+      <div class="layout-content" ui-view="body"></div>
+    </md-content>
+
+  </div> <!-- layout:column -->
+</body> <!-- layout:row -->
+</html>

@@ -1,0 +1,177 @@
+{
+  "name": "Pilotless Drone",
+  "description": "Pilotless Drone was formed in 2007 in Harrisonburg, Virginia.The band recorded its first album, \"The Art of Empty Words\", in Nashville, TN in 2008.After recording the album the band gradually stopped playing live sets and decided to go on a hiatus.<br/><br/>In 2010/2011 Pilotless Drone reformed as a duet for a new recording project later named \"Cloudfist\".Since that time members Brian and Karl have continued to write and record music under the original band name.",
+  "members": [
+    {
+      "name": "Brian Vaughn",
+      "imageUrl": "/images/avatar-brian.jpeg",
+      "roles": "vocals, guitar"
+    },
+    {
+      "name": "Karl Ridgeway",
+      "imageUrl": "/images/avatar-karl.jpeg",
+      "roles": "guitar, drums"
+    }
+  ],
+  "albums": [
+    {
+      "name": "Elemental",
+      "imageUrl": "http://f1.bcbits.com/img/a2741544268_10.jpg",
+      "date": "July, 2014",
+      "soundCloudUrl": "https://soundcloud.com/pilotlessdrone/sets/elemental",
+      "bandcampUrl": "http://pilotlessdrone.bandcamp.com/album/elemental",
+      "songs": [
+        {
+          "name": "Water",
+          "url": "https://soundcloud.com/pilotlessdrone/water?in=pilotlessdrone/sets/elemental"
+        },
+        {
+          "name": "Evolution",
+          "url": "https://soundcloud.com/pilotlessdrone/evolution?in=pilotlessdrone/sets/elemental"
+        },
+        {
+          "name": "Faultline",
+          "url": "https://soundcloud.com/pilotlessdrone/faultline?in=pilotlessdrone/sets/elemental"
+        },
+        {
+          "name": "Sky Blue",
+          "url": "https://soundcloud.com/pilotlessdrone/sky-blue?in=pilotlessdrone/sets/elemental"
+        }
+      ]
+    },
+    {
+      "name": "The Other Road",
+      "imageUrl": "http://f1.bcbits.com/img/a3954131006_10.jpg",
+      "date": "January 2013",
+      "soundCloudUrl": "https://soundcloud.com/pilotlessdrone/sets/the-other-road",
+      "bandcampUrl": "http://pilotlessdrone.bandcamp.com/album/the-other-road",
+      "songs": [
+        {
+          "name": "Way Back Down",
+          "url": "https://soundcloud.com/pilotlessdrone/way-back-down?in=pilotlessdrone/sets/the-other-road"
+        },
+        {
+          "name": "Preacher",
+          "url": "https://soundcloud.com/pilotlessdrone/preacher?in=pilotlessdrone/sets/the-other-road"
+        },
+        {
+          "name": "Winter Comes",
+          "url": "https://soundcloud.com/pilotlessdrone/winter-comes?in=pilotlessdrone/sets/the-other-road"
+        },
+        {
+          "name": "Self Made Martyr",
+          "url": "https://soundcloud.com/pilotlessdrone/self-made-martyr-1?in=pilotlessdrone/sets/the-other-road"
+        },
+        {
+          "name": "Accelerate",
+          "url": "https://soundcloud.com/pilotlessdrone/accelerate?in=pilotlessdrone/sets/the-other-road"
+        },
+        {
+          "name": "The Hunter",
+          "url": "https://soundcloud.com/pilotlessdrone/the-hunter?in=pilotlessdrone/sets/the-other-road"
+        },
+        {
+          "name": "The Other Road",
+          "url": "https://soundcloud.com/pilotlessdrone/the-other-road?in=pilotlessdrone/sets/the-other-road"
+        },
+        {
+          "name": "Come Tomorrow",
+          "url": "https://soundcloud.com/pilotlessdrone/come-tomorow?in=pilotlessdrone/sets/the-other-road"
+        },
+        {
+          "name": "Coil (Opeth Cover)",
+          "url": "https://soundcloud.com/pilotlessdrone/coil-opeth-cover?in=pilotlessdrone/sets/the-other-road"
+        }
+      ]
+    },
+    {
+      "name": "Cloudfist",
+      "imageUrl": "http://f1.bcbits.com/img/a2300389712_10.jpg",
+      "date": "August 2011",
+      "soundCloudUrl": "https://soundcloud.com/pilotlessdrone/sets/cloudfist",
+      "bandcampUrl": "http://pilotlessdrone.bandcamp.com/album/cloudfist",
+      "songs": [
+        {
+          "name": "Cloudfist",
+          "url": "https://soundcloud.com/pilotlessdrone/cloudfist?in=pilotlessdrone/sets/cloudfist"
+        },
+        {
+          "name": "Mad World (Tears for Fears)",
+          "url": "https://soundcloud.com/pilotlessdrone/02-mad-world-tears-for-fears?in=pilotlessdrone/sets/cloudfist"
+        },
+        {
+          "name": "Vostok",
+          "url": "https://soundcloud.com/pilotlessdrone/03-vostok?in=pilotlessdrone/sets/cloudfist"
+        },
+        {
+          "name": "Eon (Celldweller)",
+          "url": "https://soundcloud.com/pilotlessdrone/04-eon-celldweller-cover?in=pilotlessdrone/sets/cloudfist"
+        },
+        {
+          "name": "All You've Got",
+          "url": "https://soundcloud.com/pilotlessdrone/05-all-youve-got?in=pilotlessdrone/sets/cloudfist"
+        },
+        {
+          "name": "Passive (A Perfect Circle)",
+          "url": "https://soundcloud.com/pilotlessdrone/06-passive-a-perfect-circle?in=pilotlessdrone/sets/cloudfist"
+        },
+        {
+          "name": "Mountain",
+          "url": "https://soundcloud.com/pilotlessdrone/07-mountain?in=pilotlessdrone/sets/cloudfist"
+        },
+        {
+          "name": "Kiss from a Rose (Seal)",
+          "url": "https://soundcloud.com/pilotlessdrone/08-kiss-from-a-rose-seal-cover?in=pilotlessdrone/sets/cloudfist"
+        },
+        {
+          "name": "Bird",
+          "url": "https://soundcloud.com/pilotlessdrone/09-bird?in=pilotlessdrone/sets/cloudfist"
+        },
+        {
+          "name": "Judas (Lady Gaga)",
+          "url": "https://soundcloud.com/pilotlessdrone/10-judas-lady-gaga-cover?in=pilotlessdrone/sets/cloudfist"
+        },
+        {
+          "name": "Future (Remix)",
+          "url": "https://soundcloud.com/pilotlessdrone/11-future-remix?in=pilotlessdrone/sets/cloudfist"
+        }
+      ]
+    },
+    {
+      "name": "The Art of Empty Words",
+      "imageUrl": "http://f1.bcbits.com/img/a0360476663_10.jpg",
+      "date": "August 2008",
+      "bandcampUrl": "http://pilotlessdrone.bandcamp.com/album/the-art-of-empty-words",
+      "songs": [
+        {
+          "name": "The Last Time",
+          "url": "http://pilotlessdrone.bandcamp.com/track/the-last-time"
+        },
+        {
+          "name": "The Art of Empty Words",
+          "url": "http://pilotlessdrone.bandcamp.com/track/the-art-of-empty-words"
+        },
+        {
+          "name": "A Walk Without Direction",
+          "url": "http://pilotlessdrone.bandcamp.com/track/a-walk-without-direction"
+        },
+        {
+          "name": "Expectations and Assumptions",
+          "url": "http://pilotlessdrone.bandcamp.com/track/expectations-and-assumptions"
+        },
+        {
+          "name": "Here",
+          "url": "http://pilotlessdrone.bandcamp.com/track/here"
+        },
+        {
+          "name": "What's That?",
+          "url": "http://pilotlessdrone.bandcamp.com/track/whats-that"
+        },
+        {
+          "name": "Something I've Never Seen",
+          "url": "http://pilotlessdrone.bandcamp.com/track/something-ive-never-seen"
+        }
+      ]
+    }
+  ]
+}

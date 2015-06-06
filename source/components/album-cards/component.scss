@@ -1,0 +1,12 @@
+.album-grid-tile {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  h3 {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+}
