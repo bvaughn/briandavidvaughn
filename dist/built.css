@@ -986,3 +986,12 @@ md-toolbar .fa {
   margin-right: 16px; }
   .band-member-grid-tile:last-of-type {
     margin-right: 0; }
+
+resume dt {
+  font-weight: bold;
+  margin-top: 8px; }
+  resume dt:first-of-type {
+    margin-top: 0; }
+
+resume table.skills tr td:first-of-type {
+  font-weight: bold; }
