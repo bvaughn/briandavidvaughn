@@ -16,7 +16,7 @@
   "albums": [
     {
       "name": "Elemental",
-      "imageUrl": "http://f1.bcbits.com/img/a2741544268_10.jpg",
+      "imageUrl": "/images/pilotless-drone-elemental.jpg",
       "date": "July, 2014",
       "soundCloudUrl": "https://soundcloud.com/pilotlessdrone/sets/elemental",
       "bandcampUrl": "http://pilotlessdrone.bandcamp.com/album/elemental",
@@ -41,7 +41,7 @@
     },
     {
       "name": "The Other Road",
-      "imageUrl": "http://f1.bcbits.com/img/a3954131006_10.jpg",
+      "imageUrl": "/images/pilotless-drone-the-other-road.jpg",
       "date": "January 2013",
       "soundCloudUrl": "https://soundcloud.com/pilotlessdrone/sets/the-other-road",
       "bandcampUrl": "http://pilotlessdrone.bandcamp.com/album/the-other-road",
@@ -86,7 +86,7 @@
     },
     {
       "name": "Cloudfist",
-      "imageUrl": "http://f1.bcbits.com/img/a2300389712_10.jpg",
+      "imageUrl": "/images/pilotless-drone-cloudfist.jpg",
       "date": "August 2011",
       "soundCloudUrl": "https://soundcloud.com/pilotlessdrone/sets/cloudfist",
       "bandcampUrl": "http://pilotlessdrone.bandcamp.com/album/cloudfist",
@@ -139,7 +139,7 @@
     },
     {
       "name": "The Art of Empty Words",
-      "imageUrl": "http://f1.bcbits.com/img/a0360476663_10.jpg",
+      "imageUrl": "/images/pilotless-drone-the-art-of-empty-words.jpg",
       "date": "August 2008",
       "bandcampUrl": "http://pilotlessdrone.bandcamp.com/album/the-art-of-empty-words",
       "songs": [
