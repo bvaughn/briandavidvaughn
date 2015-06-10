@@ -9,7 +9,9 @@
                 md-colspan-sm="1"
                 class="album-grid-tile">
 
-    <img ng-src="{{album.imageUrl}}">
+    <a ui-sref="album({albumId: album.id})">
+      <img ng-src="{{album.imageUrl}}">
+    </a>
 
     <md-grid-tile-footer>
       <h3>{{album.name}}<small>, {{album.date}}</small></h3>

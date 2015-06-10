@@ -1,0 +1,86 @@
+{
+  "name": "My American Guilt",
+  "bandId": "boy-named-bri",
+  "imageUrl": "/images/boy-named-bri-album-my-american-guilt.jpg",
+  "date": "February, 2012",
+  "soundCloudUrl": "https://soundcloud.com/brianvaughn/",
+  "bandcampUrl": "http://brianvaughn.bandcamp.com/album/my-american-guilt",
+  "songs": [
+    {
+      "name": "Here",
+      "url": "https://soundcloud.com/brianvaughn/here"
+    },
+    {
+      "name": "Love",
+      "url": "https://soundcloud.com/brianvaughn/love"
+    },
+    {
+      "name": "No, Say it",
+      "url": "https://soundcloud.com/brianvaughn/no-say-it"
+    },
+    {
+      "name": "Little Girl",
+      "url": "https://soundcloud.com/brianvaughn/little-girl"
+    },
+    {
+      "name": "Expectations & Assumptions",
+      "url": "https://soundcloud.com/brianvaughn/expectations-assumptions"
+    },
+    {
+      "name": "My American Guilt",
+      "url": "https://soundcloud.com/brianvaughn/my-american-guilt"
+    },
+    {
+      "name": "Scattershot",
+      "url": "https://soundcloud.com/brianvaughn/scattershot"
+    },
+    {
+      "name": "Your Eyes",
+      "url": "https://soundcloud.com/brianvaughn/your_eyes"
+    },
+    {
+      "name": "Parts of You",
+      "url": "https://soundcloud.com/brianvaughn/parts-of-you"
+    },
+    {
+      "name": "The Shepherd",
+      "url": "https://soundcloud.com/brianvaughn/the-shepherd"
+    },
+    {
+      "name": "A Walk Without Direction",
+      "url": "https://soundcloud.com/brianvaughn/a-walk-without-direction"
+    },
+    {
+      "name": "Revolutions",
+      "url": "https://soundcloud.com/brianvaughn/revolutions"
+    },
+    {
+      "name": "Revolve",
+      "url": "https://soundcloud.com/brianvaughn/revolve"
+    },
+    {
+      "name": "Oh, My Mind",
+      "url": "https://soundcloud.com/brianvaughn/oh-my-mind"
+    },
+    {
+      "name": "Three",
+      "url": "https://soundcloud.com/brianvaughn/three"
+    },
+    {
+      "name": "Dichotomy",
+      "url": "https://soundcloud.com/brianvaughn/dichotomy"
+    },
+    {
+      "name": "Covered & Marked",
+      "url": "https://soundcloud.com/brianvaughn/covered-and-marked-feat-gor"
+    },
+    {
+      "name": "Warming Up to You",
+      "url": "https://soundcloud.com/brianvaughn/warming-up-to-you"
+    },
+    {
+      "name": "Red Light, Green Light",
+      "url": "https://soundcloud.com/brianvaughn/red-light-green-light"
+    }
+  ]
+}

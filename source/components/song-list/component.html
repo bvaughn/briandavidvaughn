@@ -1,0 +1,26 @@
+<md-list>
+  <md-list-item ng-repeat="song in songs"
+                class="md-2-line">
+
+    <img ng-if="song.imageUrl"
+         ng-src="{{song.imageUrl}}"
+         class="md-avatar">
+
+    <img ng-if="!song.imageUrl && album && album.imageUrl"
+         ng-src="{{album.imageUrl}}"
+         class="md-avatar">
+
+    <img ng-if="!song.imageUrl && band && band.imageUrl"
+         ng-src="{{band.imageUrl}}"
+         class="md-avatar">
+
+    <div class="md-list-item-text">
+      <h3 ng-bind="song.name"></h3>
+      <h4>
+        <a href="{{song.url}}">
+          {{song.url}}
+        </a>
+      </h4>
+    </div>
+  </md-list-item>
+</md-list>

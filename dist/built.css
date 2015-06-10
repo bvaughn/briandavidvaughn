@@ -973,6 +973,20 @@ md-toolbar .fa {
   font-size: 16px;
   max-height: 48px; }
 
+album img {
+  max-width: 150px;
+  height: auto;
+  margin-right: 20px; }
+
+album .album-title {
+  margin: 0; }
+
+album p {
+  margin: 0 0 5px; }
+
+album .md-button {
+  margin: 0; }
+
 .album-grid-tile img {
   max-width: 100%;
   height: auto; }
@@ -995,3 +1009,9 @@ resume dt {
 
 resume table.skills tr td:first-of-type {
   font-weight: bold; }
+
+song-list md-list-item {
+  padding: 0;
+  min-height: 30px; }
+  song-list md-list-item .md-list-item-text {
+    padding: 10px 0 0 !important; }

@@ -3,6 +3,34 @@ module.config(function($stateProvider, $urlRouterProvider) {
   $urlRouterProvider.otherwise('/albums');
 
   $stateProvider
+    .state('album', {
+      url: '/album/:albumId',
+      resolve: {
+        album: function($stateParams, Album) {
+          return Album.load($stateParams.albumId);
+        },
+        band: function(album, Band) {
+          return Band.load(album.bandId);
+        }
+      },
+      views: {
+        header: {
+          template: '<page-title title="title"></page-title>',
+          controller: function($scope, album) {
+            $scope.titles = [album.band, album.name];
+          }
+        },
+        body: {
+          template: '<album album="album" band="band"></album>',
+          controller: function($scope, album, band) {
+            $scope.album = album;
+            $scope.band = band;
+          }
+        }
+      }
+    });
+
+  $stateProvider
     .state('band', {
       url: '/band/:bandId',
       resolve: {
@@ -45,8 +73,10 @@ module.config(function($stateProvider, $urlRouterProvider) {
 
 angular.module('briandavidvaughn').service('Album', function($http) {
   return {
-    loadAlbums: function(bandId) {
-      return $http.get('/data/albums/' + bandId + '.json');
+    load: function(albumId) {
+      return $http.get('/data/albums/' + albumId + '.json').then(function(response) {
+        return response.data;
+      });
     }
   };
 });
@@ -70,6 +100,17 @@ angular.module('briandavidvaughn').service('Firebase', function($firebaseArray, 
     },
     createObject: function(path) {
       return $firebaseObject(new Firebase(baseUrl + path));
+    }
+  };
+});
+
+angular.module('briandavidvaughn').directive('album', function() {
+  return {
+    restrict: 'E',
+    templateUrl: 'source/components/album/component.html',
+    scope: {
+      album: '=',
+      band: '='
     }
   };
 });
@@ -131,6 +172,18 @@ angular.module('briandavidvaughn').directive('resume', function() {
     restrict: 'E',
     templateUrl: 'source/components/resume/component.html',
     link: function($scope) {
+    }
+  };
+});
+
+angular.module('briandavidvaughn').directive('songList', function() {
+  return {
+    restrict: 'E',
+    templateUrl: 'source/components/song-list/component.html',
+    scope: {
+      album: '=?',
+      band: '=?',
+      songs: '='
     }
   };
 });

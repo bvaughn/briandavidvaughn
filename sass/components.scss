@@ -5,8 +5,10 @@
 @import "_variables";
 
 // components
+@import "source/components/album/component.scss";
 @import "source/components/album-cards/component.scss";
 @import "source/components/band/component.scss";
 @import "source/components/band/band-members/component.scss";
 @import "source/components/band/band-members/band-member/component.scss";
 @import "source/components/resume/component.scss";
+@import "source/components/song-list/component.scss";

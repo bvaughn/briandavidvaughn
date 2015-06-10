@@ -1,6 +1,8 @@
 {
   "name": "Pilotless Drone",
   "description": "Pilotless Drone was formed in 2007 in Harrisonburg, Virginia.The band recorded its first album, \"The Art of Empty Words\", in Nashville, TN in 2008.After recording the album the band gradually stopped playing live sets and decided to go on a hiatus.<br/><br/>In 2010/2011 Pilotless Drone reformed as a duet for a new recording project later named \"Cloudfist\".Since that time members Brian and Karl have continued to write and record music under the original band name.",
+  "soundCloudUrl": "https://soundcloud.com/pilotlessdrone/",
+  "bandcampUrl": "http://pilotlessdrone.bandcamp.com/",
   "members": [
     {
       "name": "Brian Vaughn",
@@ -173,5 +175,6 @@
         }
       ]
     }
-  ]
+  ],
+  "unreleasedSongs": []
 }

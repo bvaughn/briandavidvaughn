@@ -3,6 +3,34 @@ module.config(function($stateProvider, $urlRouterProvider) {
   $urlRouterProvider.otherwise('/albums');
 
   $stateProvider
+    .state('album', {
+      url: '/album/:albumId',
+      resolve: {
+        album: function($stateParams, Album) {
+          return Album.load($stateParams.albumId);
+        },
+        band: function(album, Band) {
+          return Band.load(album.bandId);
+        }
+      },
+      views: {
+        header: {
+          template: '<page-title title="title"></page-title>',
+          controller: function($scope, album) {
+            $scope.titles = [album.band, album.name];
+          }
+        },
+        body: {
+          template: '<album album="album" band="band"></album>',
+          controller: function($scope, album, band) {
+            $scope.album = album;
+            $scope.band = band;
+          }
+        }
+      }
+    });
+
+  $stateProvider
     .state('band', {
       url: '/band/:bandId',
       resolve: {
