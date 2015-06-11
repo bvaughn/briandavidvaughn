@@ -1,4 +1,5 @@
 {
+  "id": "boy-named-bri",
   "name": "Boy Named Bri",
   "description": "Boy Named Bri is the name of my solo project. I've been recording music under this (or my own) name since the late 90s. With the exception of \"Is That What Love Is?\"- recorded in Nashville, TN- these albums were all recorded and produced in my home studio.",
   "imageUrl": "/images/bands/boy-named-bri.jpg",
@@ -20,18 +21,12 @@
     {
       "name": "Hello, Stranger",
       "imageUrl": "/images/albums/boy-named-bri-hello-stranger.jpg",
-      "date": "",
-      "soundCloudUrl": "https://soundcloud.com/brianvaughn/",
-      "bandcampUrl": "",
-      "songs": []
+      "id": "hello-stranger"
     },
     {
       "name": "Is That what Love Is?",
       "imageUrl": "/images/albums/boy-named-bri-is-that-what-love-is.jpg",
-      "date": "",
-      "soundCloudUrl": "https://soundcloud.com/brianvaughn/",
-      "bandcampUrl": "",
-      "songs": []
+      "id": "is-that-what-love-is"
     }
   ],
   "unreleasedSongs": [

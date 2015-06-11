@@ -4,13 +4,13 @@ module.config(function($stateProvider, $urlRouterProvider) {
 
   $stateProvider
     .state('album', {
-      url: '/album/:albumId',
+      url: '/album/:bandId/:albumId',
       resolve: {
         album: function($stateParams, Album) {
-          return Album.load($stateParams.albumId);
+          return Album.load($stateParams.bandId, $stateParams.albumId);
         },
-        band: function(album, Band) {
-          return Band.load(album.bandId);
+        band: function($stateParams, Band) {
+          return Band.load($stateParams.bandId);
         }
       },
       views: {
@@ -73,8 +73,8 @@ module.config(function($stateProvider, $urlRouterProvider) {
 
 angular.module('briandavidvaughn').service('Album', function($http) {
   return {
-    load: function(albumId) {
-      return $http.get('/data/albums/' + albumId + '.json').then(function(response) {
+    load: function(bandId, albumId) {
+      return $http.get('/data/albums/' + bandId + '/' + albumId + '.json').then(function(response) {
         return response.data;
       });
     }
@@ -120,7 +120,7 @@ angular.module('briandavidvaughn').directive('albumCards', function() {
     restrict: 'E',
     templateUrl: 'source/components/album-cards/component.html',
     scope: {
-      albums: '='
+      band: '='
     }
   };
 });

@@ -1,0 +1,27 @@
+{
+  "id": "elemental",
+  "bandId": "pilotless-drone",
+  "name": "Elemental",
+  "imageUrl": "/images/albums/pilotless-drone-the-other-road.jpg",
+  "date": "January 2013",
+  "soundCloudUrl": "https://soundcloud.com/pilotlessdrone/sets/the-other-road",
+  "bandcampUrl": "http://pilotlessdrone.bandcamp.com/album/the-other-road",
+  "songs": [
+    {
+      "name": "Water",
+      "url": "https://soundcloud.com/pilotlessdrone/water"
+    },
+    {
+      "name": "Evolution",
+      "url": "https://soundcloud.com/pilotlessdrone/evolution"
+    },
+    {
+      "name": "Faultline",
+      "url": "https://soundcloud.com/pilotlessdrone/faultline"
+    },
+    {
+      "name": "Sky Blue",
+      "url": "https://soundcloud.com/pilotlessdrone/sky-blue"
+    }
+  ]
+}

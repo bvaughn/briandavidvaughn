@@ -4,13 +4,13 @@ module.config(function($stateProvider, $urlRouterProvider) {
 
   $stateProvider
     .state('album', {
-      url: '/album/:albumId',
+      url: '/album/:bandId/:albumId',
       resolve: {
         album: function($stateParams, Album) {
-          return Album.load($stateParams.albumId);
+          return Album.load($stateParams.bandId, $stateParams.albumId);
         },
-        band: function(album, Band) {
-          return Band.load(album.bandId);
+        band: function($stateParams, Band) {
+          return Band.load($stateParams.bandId);
         }
       },
       views: {

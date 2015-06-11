@@ -1,0 +1,55 @@
+{
+  "id": "cloudfist",
+  "bandId": "pilotless-drone",
+  "name": "Cloudfist",
+  "imageUrl": "/images/albums/pilotless-drone-cloudfist.jpg",
+  "date": "August 2011",
+  "soundCloudUrl": "https://soundcloud.com/pilotlessdrone/sets/cloudfist",
+  "bandcampUrl": "http://pilotlessdrone.bandcamp.com/album/cloudfist",
+  "songs": [
+    {
+      "name": "Cloudfist",
+      "url": "https://soundcloud.com/pilotlessdrone/cloudfist"
+    },
+    {
+      "name": "Mad World (Tears for Fears)",
+      "url": "https://soundcloud.com/pilotlessdrone/02-mad-world-tears-for-fears"
+    },
+    {
+      "name": "Vostok",
+      "url": "https://soundcloud.com/pilotlessdrone/03-vostok"
+    },
+    {
+      "name": "Eon (Celldweller)",
+      "url": "https://soundcloud.com/pilotlessdrone/04-eon-celldweller-cover"
+    },
+    {
+      "name": "All You've Got",
+      "url": "https://soundcloud.com/pilotlessdrone/05-all-youve-got"
+    },
+    {
+      "name": "Passive (A Perfect Circle)",
+      "url": "https://soundcloud.com/pilotlessdrone/06-passive-a-perfect-circle"
+    },
+    {
+      "name": "Mountain",
+      "url": "https://soundcloud.com/pilotlessdrone/07-mountain"
+    },
+    {
+      "name": "Kiss from a Rose (Seal)",
+      "url": "https://soundcloud.com/pilotlessdrone/08-kiss-from-a-rose-seal-cover"
+    },
+    {
+      "name": "Bird",
+      "url": "https://soundcloud.com/pilotlessdrone/09-bird"
+    },
+    {
+      "name": "Judas (Lady Gaga)",
+      "url": "https://soundcloud.com/pilotlessdrone/10-judas-lady-gaga-cover"
+    },
+    {
+      "name": "Future (Remix)",
+      "url": "https://soundcloud.com/pilotlessdrone/11-future-remix"
+    }
+  ]
+}

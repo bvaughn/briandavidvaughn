@@ -1,0 +1,47 @@
+{
+  "id": "the-other-road",
+  "bandId": "pilotless-drone",
+  "name": "The Other Road",
+  "imageUrl": "/images/albums/pilotless-drone-the-other-road.jpg",
+  "date": "January 2013",
+  "soundCloudUrl": "https://soundcloud.com/pilotlessdrone/sets/the-other-road",
+  "bandcampUrl": "http://pilotlessdrone.bandcamp.com/album/the-other-road",
+  "songs": [
+    {
+      "name": "Way Back Down",
+      "url": "https://soundcloud.com/pilotlessdrone/way-back-down"
+    },
+    {
+      "name": "Preacher",
+      "url": "https://soundcloud.com/pilotlessdrone/preacher"
+    },
+    {
+      "name": "Winter Comes",
+      "url": "https://soundcloud.com/pilotlessdrone/winter-comes"
+    },
+    {
+      "name": "Self Made Martyr",
+      "url": "https://soundcloud.com/pilotlessdrone/self-made-martyr-1"
+    },
+    {
+      "name": "Accelerate",
+      "url": "https://soundcloud.com/pilotlessdrone/accelerate"
+    },
+    {
+      "name": "The Hunter",
+      "url": "https://soundcloud.com/pilotlessdrone/the-hunter"
+    },
+    {
+      "name": "The Other Road",
+      "url": "https://soundcloud.com/pilotlessdrone/the-other-road"
+    },
+    {
+      "name": "Come Tomorrow",
+      "url": "https://soundcloud.com/pilotlessdrone/come-tomorow"
+    },
+    {
+      "name": "Coil (Opeth Cover)",
+      "url": "https://soundcloud.com/pilotlessdrone/coil-opeth-cover"
+    }
+  ]
+}

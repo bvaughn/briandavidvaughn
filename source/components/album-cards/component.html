@@ -3,13 +3,13 @@
       md-row-height-gt-md="1:1" md-row-height="1:1"
       md-gutter="4px" md-gutter-gt-sm="4px" >
 
-  <md-grid-tile ng-repeat="album in albums"
+  <md-grid-tile ng-repeat="album in band.albums"
                 md-rowspan="1"
                 md-colspan="1"
                 md-colspan-sm="1"
                 class="album-grid-tile">
 
-    <a ui-sref="album({albumId: album.id})">
+    <a ui-sref="album({bandId: band.id, albumId: album.id})">
       <img ng-src="{{album.imageUrl}}">
     </a>
 

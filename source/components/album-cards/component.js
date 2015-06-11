@@ -3,7 +3,7 @@ angular.module('briandavidvaughn').directive('albumCards', function() {
     restrict: 'E',
     templateUrl: 'source/components/album-cards/component.html',
     scope: {
-      albums: '='
+      band: '='
     }
   };
 });
