@@ -1,0 +1,91 @@
+{
+  "id": "hello-stranger",
+  "name": "Hello, Stranger",
+  "bandId": "boy-named-bri",
+  "imageUrl": "/images/albums/boy-named-bri-hello-stranger.jpg",
+  "date": "April, 2011",
+  "soundCloudUrl": "https://soundcloud.com/brianvaughn/",
+  "bandcampUrl": "http://brianvaughn.bandcamp.com/album/hello-stranger",
+  "songs": [
+    {
+      "name": "At All",
+      "url": "https://brianvaughn.bandcamp.com/track/at-all"
+    },
+    {
+      "name": "Nothing Changes",
+      "url": "https://brianvaughn.bandcamp.com/track/nothing-changes"
+    },
+    {
+      "name": "The Song I Sing",
+      "url": "https://brianvaughn.bandcamp.com/track/the-song-i-sing"
+    },
+    {
+      "name": "Mountain",
+      "url": "https://brianvaughn.bandcamp.com/track/mountain"
+    },
+    {
+      "name": "Friend to the Undertow",
+      "url": "https://brianvaughn.bandcamp.com/track/friend-to-the-undertow"
+    },
+    {
+      "name": "Hello, Stranger",
+      "url": "https://brianvaughn.bandcamp.com/track/hello-stranger"
+    },
+    {
+      "name": "Future",
+      "url": "https://brianvaughn.bandcamp.com/track/future"
+    },
+    {
+      "name": "Are You 10 Years Ago? (Tegan & Sara)",
+      "url": "https://brianvaughn.bandcamp.com/track/are-you-10-years-ago-tegan-sara"
+    },
+    {
+      "name": "Some May Say",
+      "url": "https://brianvaughn.bandcamp.com/track/some-may-say"
+    },
+    {
+      "name": "Better with Wings",
+      "url": "https://brianvaughn.bandcamp.com/track/better-with-wings"
+    },
+    {
+      "name": "Nothing for a Man",
+      "url": "https://brianvaughn.bandcamp.com/track/nothing-for-a-man"
+    },
+    {
+      "name": "Exercise Your Faith",
+      "url": "https://brianvaughn.bandcamp.com/track/exercise-your-faith"
+    },
+    {
+      "name": "Take it or Leave it",
+      "url": "https://brianvaughn.bandcamp.com/track/take-it-or-leave-it"
+    },
+    {
+      "name": "Given Time",
+      "url": "https://brianvaughn.bandcamp.com/track/given-time"
+    },
+    {
+      "name": "Now & Later",
+      "url": "https://brianvaughn.bandcamp.com/track/now-later"
+    },
+    {
+      "name": "Drowned (Tim Minchin)",
+      "url": "https://brianvaughn.bandcamp.com/track/drowned-tim-minchin"
+    },
+    {
+      "name": "Shyness Looks at Tennis Shoes",
+      "url": "https://brianvaughn.bandcamp.com/track/shyness-looks-at-tennis-shoes"
+    },
+    {
+      "name": "Collide",
+      "url": "https://brianvaughn.bandcamp.com/track/collide"
+    },
+    {
+      "name": "The Ocean (Tegan & Sara)",
+      "url": "https://brianvaughn.bandcamp.com/track/the-ocean-tegan-sara"
+    },
+    {
+      "name": "Blind",
+      "url": "https://brianvaughn.bandcamp.com/track/blind"
+    }
+  ]
+}
