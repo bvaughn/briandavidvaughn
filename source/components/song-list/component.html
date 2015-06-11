@@ -15,7 +15,10 @@
          class="md-avatar">
 
     <div class="md-list-item-text">
-      <h3 ng-bind="song.name"></h3>
+      <h3>
+        <span ng-if="showTrackNumber">{{$index + 1}}:</span>
+        <span ng-bind="song.name"></span>
+      </h3>
       <h4>
         <a href="{{song.url}}">
           {{song.url}}

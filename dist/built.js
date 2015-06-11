@@ -183,7 +183,8 @@ angular.module('briandavidvaughn').directive('songList', function() {
     scope: {
       album: '=?',
       band: '=?',
-      songs: '='
+      songs: '=',
+      showTrackNumber: '@?'
     }
   };
 });

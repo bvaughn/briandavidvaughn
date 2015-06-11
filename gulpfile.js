@@ -17,3 +17,5 @@ gulp.task('sass', function () {
     .pipe(concat('built.css'))
     .pipe(gulp.dest('dist/'));
 });
+
+// TODO Copy HTML files
