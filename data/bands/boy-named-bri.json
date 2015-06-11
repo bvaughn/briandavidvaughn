@@ -14,19 +14,21 @@
   ],
   "albums": [
     {
+      "id": "my-american-guilt",
       "name": "My American Guilt",
       "imageUrl": "/images/albums/boy-named-bri-my-american-guilt.jpg",
-      "id": "my-american-guilt"
+      "date": "February, 2012"
     },
     {
+      "id": "hello-stranger",
       "name": "Hello, Stranger",
       "imageUrl": "/images/albums/boy-named-bri-hello-stranger.jpg",
-      "id": "hello-stranger"
+      "date": "April, 2011"
     },
     {
+      "id": "is-that-what-love-is",
       "name": "Is That what Love Is?",
-      "imageUrl": "/images/albums/boy-named-bri-is-that-what-love-is.jpg",
-      "id": "is-that-what-love-is"
+      "imageUrl": "/images/albums/boy-named-bri-is-that-what-love-is.jpg"
     }
   ],
   "unreleasedSongs": [

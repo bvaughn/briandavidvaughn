@@ -19,24 +19,28 @@
   ],
   "albums": [
     {
+      "id": "elemental",
       "name": "Elemental",
       "imageUrl": "/images/albums/pilotless-drone-elemental.jpg",
-      "id": "elemental"
+      "date": "January 2013"
     },
     {
+      "id": "the-other-road",
       "name": "The Other Road",
       "imageUrl": "/images/albums/pilotless-drone-the-other-road.jpg",
-      "id": "the-other-road"
+      "date": "January 2013"
     },
     {
       "id": "cloudfist",
       "name": "Cloudfist",
-      "imageUrl": "/images/albums/pilotless-drone-cloudfist.jpg"
+      "imageUrl": "/images/albums/pilotless-drone-cloudfist.jpg",
+      "date": "August 2011"
     },
     {
       "id": "the-art-of-empty-words",
       "name": "The Art of Empty Words",
-      "imageUrl": "/images/albums/pilotless-drone-the-art-of-empty-words.jpg"
+      "imageUrl": "/images/albums/pilotless-drone-the-art-of-empty-words.jpg",
+      "date": "August 2008"
     }
   ],
   "unreleasedSongs": []
