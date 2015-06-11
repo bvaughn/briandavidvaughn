@@ -1,24 +1,25 @@
 {
   "name": "Pilotless Drone",
   "description": "Pilotless Drone was formed in 2007 in Harrisonburg, Virginia.The band recorded its first album, \"The Art of Empty Words\", in Nashville, TN in 2008.After recording the album the band gradually stopped playing live sets and decided to go on a hiatus.<br/><br/>In 2010/2011 Pilotless Drone reformed as a duet for a new recording project later named \"Cloudfist\".Since that time members Brian and Karl have continued to write and record music under the original band name.",
+  "imageUrl": "/images/bands/pilotless-drone.jpg",
   "soundCloudUrl": "https://soundcloud.com/pilotlessdrone/",
   "bandcampUrl": "http://pilotlessdrone.bandcamp.com/",
   "members": [
     {
       "name": "Brian Vaughn",
-      "imageUrl": "/images/avatar-brian.jpeg",
+      "imageUrl": "/images/avatars/brian-vaughn.jpg",
       "roles": "vocals, guitar"
     },
     {
       "name": "Karl Ridgeway",
-      "imageUrl": "/images/avatar-karl.jpeg",
+      "imageUrl": "/images/avatars/karl-ridgeway.jpg",
       "roles": "guitar, drums"
     }
   ],
   "albums": [
     {
       "name": "Elemental",
-      "imageUrl": "/images/pilotless-drone-elemental.jpg",
+      "imageUrl": "/images/albums/pilotless-drone-elemental.jpg",
       "date": "July, 2014",
       "soundCloudUrl": "https://soundcloud.com/pilotlessdrone/sets/elemental",
       "bandcampUrl": "http://pilotlessdrone.bandcamp.com/album/elemental",
@@ -43,7 +44,7 @@
     },
     {
       "name": "The Other Road",
-      "imageUrl": "/images/pilotless-drone-the-other-road.jpg",
+      "imageUrl": "/images/albums/pilotless-drone-the-other-road.jpg",
       "date": "January 2013",
       "soundCloudUrl": "https://soundcloud.com/pilotlessdrone/sets/the-other-road",
       "bandcampUrl": "http://pilotlessdrone.bandcamp.com/album/the-other-road",
@@ -88,7 +89,7 @@
     },
     {
       "name": "Cloudfist",
-      "imageUrl": "/images/pilotless-drone-cloudfist.jpg",
+      "imageUrl": "/images/albums/pilotless-drone-cloudfist.jpg",
       "date": "August 2011",
       "soundCloudUrl": "https://soundcloud.com/pilotlessdrone/sets/cloudfist",
       "bandcampUrl": "http://pilotlessdrone.bandcamp.com/album/cloudfist",
@@ -141,7 +142,7 @@
     },
     {
       "name": "The Art of Empty Words",
-      "imageUrl": "/images/pilotless-drone-the-art-of-empty-words.jpg",
+      "imageUrl": "/images/albums/pilotless-drone-the-art-of-empty-words.jpg",
       "date": "August 2008",
       "bandcampUrl": "http://pilotlessdrone.bandcamp.com/album/the-art-of-empty-words",
       "songs": [
