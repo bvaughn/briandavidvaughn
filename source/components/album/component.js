@@ -1,7 +1,7 @@
 angular.module('briandavidvaughn').directive('album', function() {
   return {
     restrict: 'E',
-    templateUrl: 'source/components/album/component.html',
+    templateUrl: '/components/album/component.html',
     scope: {
       album: '=',
       band: '='

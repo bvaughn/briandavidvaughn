@@ -1,0 +1,21 @@
+<div>
+  <p ng-bind-html="band.description"></p>
+
+  <h3>Members</h3>
+
+  <band-members members="band.members"></band-members>
+
+  <div ng-if="band.albums.length">
+    <h3>Albums</h3>
+
+    <album-cards band="band"></album-cards>
+  </div>
+
+  <div ng-if="band.unreleasedSongs.length">
+    <h3>Unreleased songs</h3>
+
+    <song-list band="band"
+               songs="band.unreleasedSongs">
+    </song-list>
+  </div>
+</div>

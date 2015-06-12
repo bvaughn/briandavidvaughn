@@ -2,7 +2,7 @@ angular.module('briandavidvaughn').directive('band', function($sce, Band) {
   return {
     restrict: 'E',
     replace: true,
-    templateUrl: 'source/components/band/component.html',
+    templateUrl: '/components/band/component.html',
     scope: {
       band: '=?',
       bandId: '@?'

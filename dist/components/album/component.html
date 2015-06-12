@@ -1,0 +1,26 @@
+<div layout="row">
+  <div>
+    <img ng-src="{{album.imageUrl}}">
+  </div>
+  <div layout="column" layout-align="center start">
+    <h3 class="album-title" ng-bind="album.name"></h3>
+    <h4>
+      <a ui-sref="band({bandId: album.bandId})" ng-bind="band.name"></a>
+    </h4>
+    <p>Released on {{album.date}}.</p>
+    <p ng-if="album.bandcampUrl">
+      <a href="{{album.bandcampUrl}}">
+        <md-button md-no-ink class="md-raised md-primary">
+          Download from Bandcamp
+        </md-button>
+      </a>
+    </p>
+  </div>
+</div>
+
+<h3>Songs</h3>
+
+<song-list album="album"
+           songs="album.songs"
+           show-track-number="true">
+</song-list>

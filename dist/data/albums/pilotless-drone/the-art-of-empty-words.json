@@ -1,0 +1,38 @@
+{
+  "id": "the-art-of-empty-words",
+  "bandId": "pilotless-drone",
+  "name": "The Art of Empty Words",
+  "imageUrl": "/images/albums/pilotless-drone-the-art-of-empty-words.jpg",
+  "date": "August 2008",
+  "bandcampUrl": "http://pilotlessdrone.bandcamp.com/album/the-art-of-empty-words",
+  "songs": [
+    {
+      "name": "The Last Time",
+      "url": "http://pilotlessdrone.bandcamp.com/track/the-last-time"
+    },
+    {
+      "name": "The Art of Empty Words",
+      "url": "http://pilotlessdrone.bandcamp.com/track/the-art-of-empty-words"
+    },
+    {
+      "name": "A Walk Without Direction",
+      "url": "http://pilotlessdrone.bandcamp.com/track/a-walk-without-direction"
+    },
+    {
+      "name": "Expectations and Assumptions",
+      "url": "http://pilotlessdrone.bandcamp.com/track/expectations-and-assumptions"
+    },
+    {
+      "name": "Here",
+      "url": "http://pilotlessdrone.bandcamp.com/track/here"
+    },
+    {
+      "name": "What's That?",
+      "url": "http://pilotlessdrone.bandcamp.com/track/whats-that"
+    },
+    {
+      "name": "Something I've Never Seen",
+      "url": "http://pilotlessdrone.bandcamp.com/track/something-ive-never-seen"
+    }
+  ]
+}

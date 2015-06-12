@@ -1,0 +1,63 @@
+{
+  "id": "pinwurm",
+  "name": "Pinwurm",
+  "description": "Pinwurm is an industrial rock collaboration between myself and Igor Rabovsky. Inspired by the music of bands like Nine Inch Nails, Pinwurm is heavy on the synthesizers and layered vocals and light on guitars.",
+  "imageUrl": "/images/bands/pinwurm.jpg",
+  "soundCloudUrl": "https://soundcloud.com/brianvaughn/",
+  "bandcampUrl": "http://brianvaughn.bandcamp.com/",
+  "members": [
+    {
+      "name": "Brian Vaughn",
+      "imageUrl": "/images/avatars/brian-vaughn.jpg",
+      "roles": "vocals"
+    },
+    {
+      "name": "Igor Rabovsky",
+      "imageUrl": "/images/avatars/igor-rabovsky.jpg",
+      "roles": "keyboard, guitar, percussion"
+    }
+  ],
+  "albums": [],
+  "unreleasedSongs": [
+    {
+      "name": "Echoes",
+      "url": "https://soundcloud.com/pinwurm/echoes",
+      "imageUrl": "/images/songs/pinwurm/echoes.jpg"
+    },
+    {
+      "name": "It's No Good (Depeche Mode)",
+      "url": "https://soundcloud.com/pinwurm/its-no-good",
+      "imageUrl": "/images/songs/pinwurm/its-no-good.jpg"
+    },
+    {
+      "name": "Pigeon",
+      "url": "https://soundcloud.com/pinwurm/pigeon",
+      "imageUrl": "/images/songs/pinwurm/pigeon.jpg"
+    },
+    {
+      "name": "Back to Before",
+      "url": "https://soundcloud.com/pinwurm/back-to-before",
+      "imageUrl": "/images/songs/pinwurm/back-to-before.jpg"
+    },
+    {
+      "name": "Accelerate",
+      "url": "https://soundcloud.com/pinwurm/accelerate",
+      "imageUrl": "/images/songs/pinwurm/accelerate.jpg"
+    },
+    {
+      "name": "Synesthesia",
+      "url": "https://soundcloud.com/pinwurm/synesthesia",
+      "imageUrl": "/images/songs/pinwurm/synesthesia.jpg"
+    },
+    {
+      "name": "Under My Skin",
+      "url": "https://soundcloud.com/pinwurm/under-my-skin",
+      "imageUrl": "/images/songs/pinwurm/under-my-skin.jpg"
+    },
+    {
+      "name": "Spaces",
+      "url": "https://soundcloud.com/pinwurm/pinwurm-spaces",
+      "imageUrl": "/images/songs/pinwurm/spaces.jpg"
+    }
+  ]
+}

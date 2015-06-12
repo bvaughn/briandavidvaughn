@@ -107,7 +107,7 @@ angular.module('briandavidvaughn').service('Firebase', function($firebaseArray, 
 angular.module('briandavidvaughn').directive('album', function() {
   return {
     restrict: 'E',
-    templateUrl: 'source/components/album/component.html',
+    templateUrl: '/components/album/component.html',
     scope: {
       album: '=',
       band: '='
@@ -118,7 +118,7 @@ angular.module('briandavidvaughn').directive('album', function() {
 angular.module('briandavidvaughn').directive('albumCards', function() {
   return {
     restrict: 'E',
-    templateUrl: 'source/components/album-cards/component.html',
+    templateUrl: '/components/album-cards/component.html',
     scope: {
       band: '='
     }
@@ -129,7 +129,7 @@ angular.module('briandavidvaughn').directive('band', function($sce, Band) {
   return {
     restrict: 'E',
     replace: true,
-    templateUrl: 'source/components/band/component.html',
+    templateUrl: '/components/band/component.html',
     scope: {
       band: '=?',
       bandId: '@?'
@@ -151,7 +151,7 @@ angular.module('briandavidvaughn').directive('band', function($sce, Band) {
 angular.module('briandavidvaughn').directive('pageTitle', function() {
   return {
     restrict: 'E',
-    templateUrl: 'source/components/page-title/component.html',
+    templateUrl: '/components/page-title/component.html',
     replace: true,
     scope: {
       title: '=?',
@@ -170,7 +170,7 @@ angular.module('briandavidvaughn').directive('pageTitle', function() {
 angular.module('briandavidvaughn').directive('resume', function() {
   return {
     restrict: 'E',
-    templateUrl: 'source/components/resume/component.html',
+    templateUrl: '/components/resume/component.html',
     link: function($scope) {
     }
   };
@@ -179,7 +179,7 @@ angular.module('briandavidvaughn').directive('resume', function() {
 angular.module('briandavidvaughn').directive('songList', function() {
   return {
     restrict: 'E',
-    templateUrl: 'source/components/song-list/component.html',
+    templateUrl: '/components/song-list/component.html',
     scope: {
       album: '=?',
       band: '=?',
@@ -193,7 +193,7 @@ angular.module('briandavidvaughn').directive('bandMembers', function() {
   return {
     restrict: 'E',
     replace: true,
-    templateUrl: 'source/components/band/band-members/component.html',
+    templateUrl: '/components/band/band-members/component.html',
     scope: {
       members: '='
     }
@@ -204,7 +204,7 @@ angular.module('briandavidvaughn').directive('bandMember', function() {
   return {
     restrict: 'E',
     replace: true,
-    templateUrl: 'source/components/band/band-members/band-member/component.html',
+    templateUrl: '/components/band/band-members/band-member/component.html',
     scope: {
       member: '='
     }

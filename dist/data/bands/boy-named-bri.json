@@ -1,0 +1,132 @@
+{
+  "id": "boy-named-bri",
+  "name": "Boy Named Bri",
+  "description": "Boy Named Bri is the name of my solo project. I've been recording music under this (or my own) name since the late 90s. With the exception of \"Is That What Love Is?\"- recorded in Nashville, TN- these albums were all recorded and produced in my home studio.",
+  "imageUrl": "/images/bands/boy-named-bri.jpg",
+  "soundCloudUrl": "https://soundcloud.com/brianvaughn/",
+  "bandcampUrl": "http://brianvaughn.bandcamp.com/",
+  "members": [
+    {
+      "name": "Brian Vaughn",
+      "imageUrl": "/images/avatars/brian-vaughn.jpg",
+      "roles": "vocals, guitar, piano, drums"
+    }
+  ],
+  "albums": [
+    {
+      "id": "my-american-guilt",
+      "name": "My American Guilt",
+      "imageUrl": "/images/albums/boy-named-bri-my-american-guilt.jpg",
+      "date": "February, 2012"
+    },
+    {
+      "id": "hello-stranger",
+      "name": "Hello, Stranger",
+      "imageUrl": "/images/albums/boy-named-bri-hello-stranger.jpg",
+      "date": "April, 2011"
+    },
+    {
+      "id": "is-that-what-love-is",
+      "name": "Is That what Love Is?",
+      "imageUrl": "/images/albums/boy-named-bri-is-that-what-love-is.jpg",
+      "date": "August, 2006"
+    }
+  ],
+  "unreleasedSongs": [
+    {
+      "name": "Told You So",
+      "url": "https://soundcloud.com/brianvaughn/told-you-so",
+      "imageUrl": "/images/songs/boy-named-bri/told-you-so.jpg"
+    },
+    {
+      "name": "Extraterrestrial (Katy Perry)",
+      "url": "https://soundcloud.com/brianvaughn/extraterrestrial-katy-perry-cover",
+      "imageUrl": "/images/songs/boy-named-bri/extraterrestrial.jpg"
+    },
+    {
+      "name": "Chestnut Drive",
+      "url": "https://soundcloud.com/brianvaughn/chestnut-drive",
+      "imageUrl": "/images/songs/boy-named-bri/chestnut-drive.jpg"
+    },
+    {
+      "name": "Your Song (Elton John)",
+      "url": "https://soundcloud.com/brianvaughn/your-song-elton-john-cover",
+      "imageUrl": "/images/songs/boy-named-bri/your-song.jpg"
+    },
+    {
+      "name": "As Long as Your Love Me (Justin Bieber)",
+      "url": "https://soundcloud.com/brianvaughn/as-long-as-you-love-me-justin-bieber-cover",
+      "imageUrl": "/images/songs/boy-named-bri/as-long-as-you-love-me.jpg"
+    },
+    {
+      "name": "Burn You Away",
+      "url": "https://soundcloud.com/brianvaughn/burn-you-away",
+      "imageUrl": "/images/songs/boy-named-bri/burn-you-away.jpg"
+    },
+    {
+      "name": "Tied to Your Smile",
+      "url": "https://soundcloud.com/brianvaughn/tied-to-your-smile",
+      "imageUrl": "/images/songs/boy-named-bri/tied-to-your-smile.jpg"
+    },
+    {
+      "name": "Oh",
+      "url": "https://soundcloud.com/brianvaughn/oh",
+      "imageUrl": "/images/songs/boy-named-bri/oh.jpg"
+    },
+    {
+      "name": "None of Us Knows",
+      "url": "https://soundcloud.com/brianvaughn/none-of-us-knows",
+      "imageUrl": "/images/songs/boy-named-bri/none-of-us-knows.jpg"
+    },
+    {
+      "name": "Somewhere",
+      "url": "https://soundcloud.com/brianvaughn/somewhere",
+      "imageUrl": "/images/songs/boy-named-bri/somewhere.jpg"
+    },
+    {
+      "name": "Pray Your Gods",
+      "url": "https://soundcloud.com/brianvaughn/pray-your-gods-toad-the-wet",
+      "imageUrl": "/images/songs/boy-named-bri/pray-your-gods.jpg"
+    },
+    {
+      "name": "Fade",
+      "url": "https://soundcloud.com/brianvaughn/fade",
+      "imageUrl": "/images/songs/boy-named-bri/fade.jpg"
+    },
+    {
+      "name": "Welcome to My Head",
+      "url": "https://soundcloud.com/brianvaughn/welcome-to-my-head",
+      "imageUrl": "/images/songs/boy-named-bri/welcome-to-my-head.jpg"
+    },
+    {
+      "name": "Animal",
+      "url": "https://soundcloud.com/brianvaughn/animal",
+      "imageUrl": "/images/songs/boy-named-bri/animal.jpg"
+    },
+    {
+      "name": "Living Within the Shell",
+      "url": "https://soundcloud.com/brianvaughn/living-within-the-shell",
+      "imageUrl": "/images/songs/boy-named-bri/living-within-the-shell.jpg"
+    },
+    {
+      "name": "Explore, Be Curious (Cloudkicker feat. Brian Vaughn on vocals)",
+      "url": "https://soundcloud.com/brianvaughn/explore_be_curious",
+      "imageUrl": "/images/songs/boy-named-bri/explore-be-curious.jpg"
+    },
+    {
+      "name": "Let Go (Frou Frou)",
+      "url": "https://soundcloud.com/brianvaughn/brianvaughn-letgo-froufrou",
+      "imageUrl": "/images/songs/boy-named-bri/let-go.jpg"
+    },
+    {
+      "name": "Blown Away (Shiny Toy Guns)",
+      "url": "https://soundcloud.com/brianvaughn/blown-away",
+      "imageUrl": "/images/songs/boy-named-bri/blown-away.jpg"
+    },
+    {
+      "name": "Water's Edge (Seven Mary Three)",
+      "url": "https://soundcloud.com/brianvaughn/waters-edge-seven-mary-three",
+      "imageUrl": "/images/songs/boy-named-bri/waters-edge.jpg"
+    }
+  ]
+}

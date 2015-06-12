@@ -1,0 +1,47 @@
+{
+  "id": "pilotless-drone",
+  "name": "Pilotless Drone",
+  "description": "Pilotless Drone was formed in 2007 in Harrisonburg, Virginia.The band recorded its first album, \"The Art of Empty Words\", in Nashville, TN in 2008.After recording the album the band gradually stopped playing live sets and decided to go on a hiatus.<br/><br/>In 2010/2011 Pilotless Drone reformed as a duet for a new recording project later named \"Cloudfist\".Since that time members Brian and Karl have continued to write and record music under the original band name.",
+  "imageUrl": "/images/bands/pilotless-drone.jpg",
+  "soundCloudUrl": "https://soundcloud.com/pilotlessdrone/",
+  "bandcampUrl": "http://pilotlessdrone.bandcamp.com/",
+  "members": [
+    {
+      "name": "Brian Vaughn",
+      "imageUrl": "/images/avatars/brian-vaughn.jpg",
+      "roles": "vocals, guitar"
+    },
+    {
+      "name": "Karl Ridgeway",
+      "imageUrl": "/images/avatars/karl-ridgeway.jpg",
+      "roles": "guitar, drums"
+    }
+  ],
+  "albums": [
+    {
+      "id": "elemental",
+      "name": "Elemental",
+      "imageUrl": "/images/albums/pilotless-drone-elemental.jpg",
+      "date": "January 2013"
+    },
+    {
+      "id": "the-other-road",
+      "name": "The Other Road",
+      "imageUrl": "/images/albums/pilotless-drone-the-other-road.jpg",
+      "date": "January 2013"
+    },
+    {
+      "id": "cloudfist",
+      "name": "Cloudfist",
+      "imageUrl": "/images/albums/pilotless-drone-cloudfist.jpg",
+      "date": "August 2011"
+    },
+    {
+      "id": "the-art-of-empty-words",
+      "name": "The Art of Empty Words",
+      "imageUrl": "/images/albums/pilotless-drone-the-art-of-empty-words.jpg",
+      "date": "August 2008"
+    }
+  ],
+  "unreleasedSongs": []
+}

@@ -1,0 +1,10 @@
+<span>
+  <i class="fa fa-navicon"
+     hide-gt-sm
+     ng-click="leftSidenavIsOpen = true"></i>
+
+  <span ng-repeat="title in titles">
+    <span ng-bind="title"></span>
+    <i ng-if="!$last" class="fa fa-angle-right"></i>
+  </span>
+</span>
