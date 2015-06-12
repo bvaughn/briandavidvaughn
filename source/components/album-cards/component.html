@@ -14,7 +14,10 @@
     </a>
 
     <md-grid-tile-footer>
-      <h3>{{album.name}}<small>, {{album.date}}</small></h3>
+      <h3>
+        {{album.name}}
+        <small ng-bind="album.date"></small>
+      </h3>
     </md-grid-tile-footer>
   </md-grid-tile>
 </md-grid-list>

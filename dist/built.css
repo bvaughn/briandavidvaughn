@@ -995,6 +995,8 @@ album .md-button {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden; }
+  .album-grid-tile h3 small {
+    display: block; }
 
 .band-member-grid-tile {
   margin-right: 16px; }
