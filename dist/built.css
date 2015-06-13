@@ -935,15 +935,26 @@ docs-demo .doc-demo-content {
 .service-desc > p:last-child {
   margin-bottom: 0; }
 
-.nowrap {
+.nowrap, .band-member-grid-tile h3, .band-member-grid-tile p, page-title, song-list md-list-item .md-list-item-text h3, song-list md-list-item .md-list-item-text h4 {
   text-overflow: ellipsis;
   overflow-x: hidden;
   white-space: nowrap; }
 
+.docs-toolbar-tools {
+  margin: 0 20px; }
+
 md-toolbar .fa {
-  padding: 10px;
+  padding: 10px 0;
   border: none;
-  cursor: pointer; }
+  cursor: pointer;
+  width: 30px;
+  text-align: center; }
+
+.fa-linkedin:before {
+  color: #008cc9; }
+
+.fa-soundcloud:before {
+  color: #f50; }
 
 .docs-logo img {
   margin-top: 10px;
@@ -1005,6 +1016,9 @@ album .md-button {
   margin-right: 16px; }
   .band-member-grid-tile:last-of-type {
     margin-right: 0; }
+
+page-title {
+  display: block; }
 
 resume dt {
   font-weight: bold;

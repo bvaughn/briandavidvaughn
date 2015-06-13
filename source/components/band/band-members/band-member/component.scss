@@ -4,4 +4,8 @@
   &:last-of-type {
     margin-right: 0;
   }
+
+  h3, p {
+    @extend .nowrap;
+  }
 }

@@ -2,7 +2,6 @@ angular.module('briandavidvaughn').directive('pageTitle', function($rootScope) {
   return {
     restrict: 'E',
     templateUrl: '/components/page-title/component.html',
-    replace: true,
     scope: {
       title: '=?',
       titles: '=?'

@@ -4,10 +4,22 @@
   white-space: nowrap;
 }
 
+.docs-toolbar-tools {
+  margin: 0 20px;
+}
+
 md-toolbar .fa {
-  padding: 10px;
+  padding: 10px 0;
   border: none;
   cursor: pointer;
+  width: 30px;
+  text-align: center;
+}
+.fa-linkedin:before {
+  color: #008cc9;
+}
+.fa-soundcloud:before {
+  color: #f50;
 }
 
 .docs-logo img {
