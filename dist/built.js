@@ -9,7 +9,7 @@ module.config(function($stateProvider, $urlRouterProvider) {
         header: {
           template: '<page-title title="title"></page-title>',
           controller: function($scope) {
-            $scope.title = 'Brian Vaughn';
+            $scope.title = 'Hi! My name is Brian.';
           }
         },
         body: {
@@ -171,15 +171,6 @@ angular.module('briandavidvaughn').directive('home', function() {
   };
 });
 
-angular.module('briandavidvaughn').directive('resume', function() {
-  return {
-    restrict: 'E',
-    templateUrl: '/components/resume/component.html',
-    link: function($scope) {
-    }
-  };
-});
-
 angular.module('briandavidvaughn').directive('pageTitle', function($rootScope) {
   return {
     restrict: 'E',
@@ -199,6 +190,15 @@ angular.module('briandavidvaughn').directive('pageTitle', function($rootScope) {
       $scope.toggleLeftNav = function() {
         $rootScope.leftSidenavIsOpen = !$rootScope.leftSidenavIsOpen;
       };
+    }
+  };
+});
+
+angular.module('briandavidvaughn').directive('resume', function() {
+  return {
+    restrict: 'E',
+    templateUrl: '/components/resume/component.html',
+    link: function($scope) {
     }
   };
 });

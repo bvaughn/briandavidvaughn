@@ -9,7 +9,7 @@ module.config(function($stateProvider, $urlRouterProvider) {
         header: {
           template: '<page-title title="title"></page-title>',
           controller: function($scope) {
-            $scope.title = 'Brian Vaughn';
+            $scope.title = 'Hi! My name is Brian.';
           }
         },
         body: {
