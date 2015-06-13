@@ -1,6 +1,22 @@
 var module = angular.module('briandavidvaughn', ['ngMaterial', 'ui.router']);
 module.config(function($stateProvider, $urlRouterProvider) {
-  $urlRouterProvider.otherwise('/band/boy-named-bri');
+  $urlRouterProvider.otherwise('/home');
+
+  $stateProvider
+    .state('home', {
+      url: '/home',
+      views: {
+        header: {
+          template: '<page-title title="title"></page-title>',
+          controller: function($scope) {
+            $scope.title = 'Brian Vaughn';
+          }
+        },
+        body: {
+          template: '<home></home>'
+        }
+      }
+    });
 
   $stateProvider
     .state('album', {

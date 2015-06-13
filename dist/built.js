@@ -1,6 +1,22 @@
 var module = angular.module('briandavidvaughn', ['ngMaterial', 'ui.router']);
 module.config(function($stateProvider, $urlRouterProvider) {
-  $urlRouterProvider.otherwise('/band/boy-named-bri');
+  $urlRouterProvider.otherwise('/home');
+
+  $stateProvider
+    .state('home', {
+      url: '/home',
+      views: {
+        header: {
+          template: '<page-title title="title"></page-title>',
+          controller: function($scope) {
+            $scope.title = 'Brian Vaughn';
+          }
+        },
+        body: {
+          template: '<home></home>'
+        }
+      }
+    });
 
   $stateProvider
     .state('album', {
@@ -148,6 +164,13 @@ angular.module('briandavidvaughn').directive('band', function($sce, Band) {
   };
 });
 
+angular.module('briandavidvaughn').directive('home', function() {
+  return {
+    restrict: 'E',
+    templateUrl: '/components/home/component.html'
+  };
+});
+
 angular.module('briandavidvaughn').directive('resume', function() {
   return {
     restrict: 'E',
@@ -157,7 +180,7 @@ angular.module('briandavidvaughn').directive('resume', function() {
   };
 });
 
-angular.module('briandavidvaughn').directive('pageTitle', function() {
+angular.module('briandavidvaughn').directive('pageTitle', function($rootScope) {
   return {
     restrict: 'E',
     templateUrl: '/components/page-title/component.html',
@@ -172,6 +195,10 @@ angular.module('briandavidvaughn').directive('pageTitle', function() {
       }
 
       document.body.title = $scope.titles.join(' > ');
+
+      $scope.toggleLeftNav = function() {
+        $rootScope.leftSidenavIsOpen = !$rootScope.leftSidenavIsOpen;
+      };
     }
   };
 });

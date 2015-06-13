@@ -10,3 +10,6 @@ cd dist/
 
 # Disable caching
 ~/gsutil/gsutil setmeta -h Cache-Control:no-cache -R gs://www.briandavidvaughn.com/
+
+# Default public-read permissions for bucket
+~/gsutil/gsutil defacl set public-read gs://www.briandavidvaughn.com

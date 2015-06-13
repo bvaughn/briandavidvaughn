@@ -1,4 +1,4 @@
-angular.module('briandavidvaughn').directive('pageTitle', function() {
+angular.module('briandavidvaughn').directive('pageTitle', function($rootScope) {
   return {
     restrict: 'E',
     templateUrl: '/components/page-title/component.html',
@@ -13,6 +13,10 @@ angular.module('briandavidvaughn').directive('pageTitle', function() {
       }
 
       document.body.title = $scope.titles.join(' > ');
+
+      $scope.toggleLeftNav = function() {
+        $rootScope.leftSidenavIsOpen = !$rootScope.leftSidenavIsOpen;
+      };
     }
   };
 });
