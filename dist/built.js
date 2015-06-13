@@ -1,6 +1,6 @@
 var module = angular.module('briandavidvaughn', ['ngMaterial', 'ui.router']);
 module.config(function($stateProvider, $urlRouterProvider) {
-  $urlRouterProvider.otherwise('/albums');
+  $urlRouterProvider.otherwise('/band/boy-named-bri');
 
   $stateProvider
     .state('album', {
