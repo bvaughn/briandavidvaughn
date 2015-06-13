@@ -1,6 +1,12 @@
 # Upload files by command line..
 cd dist/
-gsutil rsync -R . gs://www.briandavidvaughn.com
+~/gsutil/gsutil rsync -R . gs://www.briandavidvaughn.com
 
 # Sharing objects publicly
-gsutil acl ch -u AllUsers:R gs://www.briandavidvaughn.com
+~/gsutil/gsutil acl ch -u AllUsers:R gs://www.briandavidvaughn.com
+
+# Get info about a file
+~/gsutil/gsutil ls -L gs://www.briandavidvaughn.com/built.js
+
+# Disable caching
+~/gsutil/gsutil setmeta -h Cache-Control:no-cache -R gs://www.briandavidvaughn.com/
