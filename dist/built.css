@@ -393,6 +393,9 @@ code:not(.highlight) {
 .site-sidenav > * {
   min-width: 218px; }
 
+.site-sidenav > md-toolbar {
+  min-height: 209px; }
+
 .docs-menu,
 .docs-menu ul {
   list-style: none;

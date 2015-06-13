@@ -148,6 +148,15 @@ angular.module('briandavidvaughn').directive('band', function($sce, Band) {
   };
 });
 
+angular.module('briandavidvaughn').directive('resume', function() {
+  return {
+    restrict: 'E',
+    templateUrl: '/components/resume/component.html',
+    link: function($scope) {
+    }
+  };
+});
+
 angular.module('briandavidvaughn').directive('pageTitle', function() {
   return {
     restrict: 'E',
@@ -163,15 +172,6 @@ angular.module('briandavidvaughn').directive('pageTitle', function() {
       }
 
       document.body.title = $scope.titles.join(' > ');
-    }
-  };
-});
-
-angular.module('briandavidvaughn').directive('resume', function() {
-  return {
-    restrict: 'E',
-    templateUrl: '/components/resume/component.html',
-    link: function($scope) {
     }
   };
 });
