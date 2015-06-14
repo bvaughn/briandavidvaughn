@@ -2,10 +2,12 @@
   margin-right: 16px;
 
   &:last-of-type {
-    margin-right: 0;
-  }
+    margin-right: 0;}
 
-  h3, p {
+  h3 {
+    margin: 0 !important;
+    line-height: 1.25em !important;
+
     @extend .nowrap;
   }
 }
