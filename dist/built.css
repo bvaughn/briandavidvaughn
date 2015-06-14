@@ -943,6 +943,11 @@ docs-demo .doc-demo-content {
 .docs-toolbar-tools {
   margin: 0 20px; }
 
+.nav-header a {
+  display: block; }
+  .nav-header a img {
+    margin: 10px auto 0; }
+
 md-toolbar .fa {
   padding: 10px 0;
   border: none;

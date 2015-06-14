@@ -8,6 +8,16 @@
   margin: 0 20px;
 }
 
+.nav-header {
+  a {
+    display: block;
+
+    img {
+      margin: 10px auto 0;
+    }
+  }
+}
+
 md-toolbar .fa {
   padding: 10px 0;
   border: none;
