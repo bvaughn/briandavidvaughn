@@ -136,6 +136,16 @@ angular.module('briandavidvaughn').directive('album', function() {
   };
 });
 
+angular.module('briandavidvaughn').directive('albumCards', function() {
+  return {
+    restrict: 'E',
+    templateUrl: '/components/album-cards/component.html',
+    scope: {
+      band: '='
+    }
+  };
+});
+
 angular.module('briandavidvaughn').directive('band', function($sce, Band) {
   return {
     restrict: 'E',
@@ -155,16 +165,6 @@ angular.module('briandavidvaughn').directive('band', function($sce, Band) {
       } else if ($scope.band) {
         $scope.band.description = $sce.trustAsHtml($scope.band.description);
       }
-    }
-  };
-});
-
-angular.module('briandavidvaughn').directive('albumCards', function() {
-  return {
-    restrict: 'E',
-    templateUrl: '/components/album-cards/component.html',
-    scope: {
-      band: '='
     }
   };
 });
