@@ -86,3 +86,8 @@ module.config(function($stateProvider, $urlRouterProvider) {
       }
     });
 });
+module.run(function($rootScope) {
+  $rootScope.$on('$stateChangeSuccess', function() {
+    $rootScope.leftSidenavIsOpen = false;
+  });
+});
