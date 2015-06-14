@@ -24,12 +24,10 @@ md-toolbar .fa {
   cursor: pointer;
   width: 30px;
   text-align: center;
-}
-.fa-linkedin:before {
-  color: #008cc9;
-}
-.fa-soundcloud:before {
-  color: #f50;
+
+  &:hover {
+    color: #106CC8;
+  }
 }
 
 .docs-logo img {
