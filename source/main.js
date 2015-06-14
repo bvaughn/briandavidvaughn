@@ -31,9 +31,9 @@ module.config(function($stateProvider, $urlRouterProvider) {
       },
       views: {
         header: {
-          template: '<page-title title="title"></page-title>',
-          controller: function($scope, album) {
-            $scope.titles = [album.band, album.name];
+          template: '<page-title titles="titles"></page-title>',
+          controller: function($scope, band, album) {
+            $scope.titles = [band.name, album.name];
           }
         },
         body: {
