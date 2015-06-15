@@ -428,7 +428,7 @@ ul li {
 ul li:first-child {
   margin-top: 0; }
 
-.nowrap, .band-member-grid-tile h3, page-title, song-list md-list-item .md-list-item-text h3, song-list md-list-item .md-list-item-text h4 {
+.nowrap, .band-member-grid-tile h3, page-title, song-list md-list-item .md-list-item-text h3, song-list md-list-item .md-list-item-text h4, song-list md-list-item .md-list-item-text p {
   text-overflow: ellipsis;
   overflow-x: hidden;
   white-space: nowrap; }
