@@ -44,7 +44,7 @@ gulp.task('compileCss', ['clean'], function() {
 
 gulp.task('rsync', shell.task(
   [
-    'gsutil rsync -R . gs://www.briandavidvaughn.com'
+    '~/gsutil/gsutil rsync -R . gs://www.briandavidvaughn.com'
   ],
   {
     cwd: 'dist/'
