@@ -136,41 +136,12 @@ angular.module('briandavidvaughn').directive('album', function() {
   };
 });
 
-angular.module('briandavidvaughn').directive('home', function() {
-  return {
-    restrict: 'E',
-    templateUrl: '/components/home/component.html'
-  };
-});
-
 angular.module('briandavidvaughn').directive('albumCards', function() {
   return {
     restrict: 'E',
     templateUrl: '/components/album-cards/component.html',
     scope: {
       band: '='
-    }
-  };
-});
-
-angular.module('briandavidvaughn').directive('pageTitle', function($rootScope) {
-  return {
-    restrict: 'E',
-    templateUrl: '/components/page-title/component.html',
-    scope: {
-      title: '=?',
-      titles: '=?'
-    },
-    link: function($scope) {
-      if (!$scope.titles) {
-        $scope.titles = [$scope.title];
-      }
-
-      document.body.title = $scope.titles.join(' > ');
-
-      $scope.toggleLeftNav = function() {
-        $rootScope.leftSidenavIsOpen = !$rootScope.leftSidenavIsOpen;
-      };
     }
   };
 });
@@ -194,6 +165,35 @@ angular.module('briandavidvaughn').directive('band', function($sce, Band) {
       } else if ($scope.band) {
         $scope.band.description = $sce.trustAsHtml($scope.band.description);
       }
+    }
+  };
+});
+
+angular.module('briandavidvaughn').directive('home', function() {
+  return {
+    restrict: 'E',
+    templateUrl: '/components/home/component.html'
+  };
+});
+
+angular.module('briandavidvaughn').directive('pageTitle', function($rootScope) {
+  return {
+    restrict: 'E',
+    templateUrl: '/components/page-title/component.html',
+    scope: {
+      title: '=?',
+      titles: '=?'
+    },
+    link: function($scope) {
+      if (!$scope.titles) {
+        $scope.titles = [$scope.title];
+      }
+
+      document.body.title = $scope.titles.join(' > ');
+
+      $scope.toggleLeftNav = function() {
+        $rootScope.leftSidenavIsOpen = !$rootScope.leftSidenavIsOpen;
+      };
     }
   };
 });
